@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Redline — Yuri Lafontaine</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Crimson+Pro:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Inter:wght@300;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav class="nav">
+    <a href="index.html" class="nav-logo">YL</a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li class="nav-dropdown">
+        <a href="#">Level Design ▾</a>
+        <ul class="dropdown-menu">
+          <li><a href="curyeux.html">Curyeux</a></li>
+          <li><a href="cacti.html">Cacti</a></li>
+          <li><a href="coming-soon.html" class="coming-soon-link">Untitled Project <span class="badge">Soon</span></a></li>
+        </ul>
+      </li>
+      <li class="nav-dropdown">
+        <a href="#" class="active">Game Design ▾</a>
+        <ul class="dropdown-menu">
+          <li><a href="green-witch.html">Green Witch</a></li>
+          <li><a href="grand-chef-goblin.html">Grand Chef Goblin</a></li>
+          <li><a href="redline.html" class="active">Redline</a></li>
+        </ul>
+      </li>
+      <li><a href="about.html">About</a></li>
+    </ul>
+    <button class="nav-toggle" id="navToggle">☰</button>
+  </nav>
+
+  <div class="page-hero">
+    <a href="index.html" class="page-back">← Back to Portfolio</a>
+    <p class="page-eyebrow">Game Design · TTRPG System</p>
+    <h1 class="page-title">Redline</h1>
+    <p class="page-subtitle">An original TTRPG system for Mad Max enthusiasts</p>
+    <div class="page-tags">
+      <span class="tag">TTRPG</span>
+      <span class="tag">Systems Design</span>
+      <span class="tag">Ongoing</span>
+      <span class="tag">Playtested</span>
+    </div>
+    <div class="page-rule"></div>
+  </div>
+
+  <div class="page-content">
+
+    <div class="content-img-placeholder content-img-placeholder--wide">Redline — Character Art</div>
+
+    <div class="content-section">
+      <h2 class="content-heading">Overview</h2>
+      <div class="info-grid">
+        <div class="info-item">
+          <p class="info-label">Inspirations</p>
+          <p class="info-value">Mad Max · Cyberpunk · Fallout</p>
+        </div>
+        <div class="info-item">
+          <p class="info-label">Status</p>
+          <p class="info-value">Ongoing — Active Playtesting</p>
+        </div>
+        <div class="info-item">
+          <p class="info-label">Design Goals</p>
+          <p class="info-value">Accessible · Player-Centered · Cinematic</p>
+        </div>
+      </div>
+      <div class="content-body">
+        <p>Redline is an original tabletop RPG system built around the player fantasy of cinematic, violent, vehicle-based combat. The goal was to be more accessible than D&D while delivering a stronger, more specific player fantasy — fast-paced chaos in a post-apocalyptic wasteland.</p>
+        <p>Multiple tables are currently playtesting it, with rules iterating every session.</p>
+      </div>
+    </div>
+
+    <div class="content-section">
+      <h2 class="content-heading">Core Systems</h2>
+
+      <div class="content-body">
+        <p><strong style="color:var(--text);">Main Die — d12:</strong> All ability checks, attacks, and defenses use a 12-sided die. This increases the frequency of critical successes and failures, which synergizes with the Focus system and reinforces the chaotic, cinematic tone.</p>
+
+        <p><strong style="color:var(--text);">Focus System:</strong> Players can gain or lose Focus through various in-game actions. Each instance of Focus determines an additional die to roll — tipping the odds at key moments. The system is extensible: a sniper rifle might grant Focus at long range; a berserk ability might grant it when injured.</p>
+
+        <p><strong style="color:var(--text);">Saving Throws — Player-Only Dice:</strong> The DM never rolls dice in Redline. When attacked, players choose which ability to use and roll to beat the attack's difficulty (DC), then narrate how they counter it. This creates collaborative storytelling and dynamic combat moments driven entirely by player agency.</p>
+
+        <p><strong style="color:var(--text);">Injury Decks — No Hit Points:</strong> Instead of HP, players and vehicles draw from injury card decks when damaged. Each card applies a specific mechanical effect — keeping injuries narratively interesting rather than numerically abstract.</p>
+
+        <p><strong style="color:var(--text);">The Ultimate Sacrifice:</strong> When a player is downed, they secretly roll a D4 indicating rounds until death. On each turn, they can either conserve time or spend their final turn using a D20 — a high-risk, high-reward last stand before a noble death.</p>
+      </div>
+
+      <div class="content-img-placeholder content-img-placeholder--wide">Focus System Diagram</div>
+      <div class="content-img-placeholder content-img-placeholder--tall" style="max-width:400px; margin-top:1rem;">Injury Card Examples</div>
+    </div>
+
+    <div class="content-section">
+      <h2 class="content-heading">Character Design</h2>
+      <div class="content-body">
+        <p><strong style="color:var(--text);">Classes & Madnesses:</strong> Players choose a class and a Madness — a trait that provides mechanical advantages at the cost of social or roleplay failings. Madnesses encourage players to inhabit specific roles within the party, create memorable character hooks from the start, and personalize the experience beyond a blank-canvas character creator.</p>
+
+        <p><strong style="color:var(--text);">Modules & Augments:</strong> Group progression happens through Modules — upgrades attached to the party's vehicle(s). Individual progression uses Augments, looted from defeated enemies and attached to the player character. Both systems reinforce the scavenging, wasteland survival fantasy.</p>
+      </div>
+      <div class="content-img-placeholder content-img-placeholder--wide">Classes & Character Sheets</div>
+    </div>
+
+    <div class="content-section">
+      <h2 class="content-heading">Reflections</h2>
+      <div class="content-body">
+        <p>Redline is the most iterative project in this portfolio — rules change every session based on table feedback. The design process here is closest to live systems design: observing player behavior, identifying friction points, and adjusting mechanics in near-real-time. It's been the most direct education in how players actually interact with systems versus how designers expect them to.</p>
+      </div>
+    </div>
+
+  </div>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <p class="footer-name">Yuri Lafontaine</p>
+      <p class="footer-role">Level Designer · Montréal, QC</p>
+      <div class="footer-links">
+        <a href="mailto:your@email.com" class="footer-link">Email</a>
+        <span class="footer-sep">·</span>
+        <a href="https://linkedin.com/in/yourprofile" target="_blank" class="footer-link">LinkedIn</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>

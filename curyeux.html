@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Curyeux — Yuri Lafontaine</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Crimson+Pro:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Inter:wght@300;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav class="nav">
+    <a href="index.html" class="nav-logo">YL</a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li class="nav-dropdown">
+        <a href="#" class="active">Level Design ▾</a>
+        <ul class="dropdown-menu">
+          <li><a href="curyeux.html" class="active">Curyeux</a></li>
+          <li><a href="cacti.html">Cacti</a></li>
+          <li><a href="coming-soon.html" class="coming-soon-link">Untitled Project <span class="badge">Soon</span></a></li>
+        </ul>
+      </li>
+      <li class="nav-dropdown">
+        <a href="#">Game Design ▾</a>
+        <ul class="dropdown-menu">
+          <li><a href="green-witch.html">Green Witch</a></li>
+          <li><a href="grand-chef-goblin.html">Grand Chef Goblin</a></li>
+          <li><a href="redline.html">Redline</a></li>
+        </ul>
+      </li>
+      <li><a href="about.html">About</a></li>
+    </ul>
+    <button class="nav-toggle" id="navToggle">☰</button>
+  </nav>
+
+  <div class="page-hero">
+    <a href="index.html" class="page-back">← Back to Portfolio</a>
+    <p class="page-eyebrow">Level Design · Puzzle Platformer</p>
+    <h1 class="page-title">Curyeux</h1>
+    <p class="page-subtitle">Final level of a published third-person puzzle-platformer</p>
+    <div class="page-tags">
+      <span class="tag">Unreal Engine 5.4</span>
+      <span class="tag">Puzzle Design</span>
+      <span class="tag">Narrative</span>
+      <span class="tag">Blueprints</span>
+      <span class="tag tag-highlight">Published on Steam</span>
+    </div>
+    <a href="https://store.steampowered.com/app/3814650/Curyeux/" target="_blank" class="ext-link">Play on Steam ↗</a>
+    <div class="page-rule"></div>
+  </div>
+
+  <div class="page-content">
+
+    <!-- Hero image -->
+    <div class="content-img-placeholder content-img-placeholder--wide">Hero Screenshot — Curyeux</div>
+
+    <!-- Overview -->
+    <div class="content-section">
+      <h2 class="content-heading">Overview</h2>
+      <div class="info-grid">
+        <div class="info-item">
+          <p class="info-label">Role</p>
+          <p class="info-value">Level Designer · Game Designer · Lead Assist</p>
+        </div>
+        <div class="info-item">
+          <p class="info-label">Engine</p>
+          <p class="info-value">Unreal Engine 5.4</p>
+        </div>
+        <div class="info-item">
+          <p class="info-label">Duration</p>
+          <p class="info-value">15-Week Production</p>
+        </div>
+        <div class="info-item">
+          <p class="info-label">Focus</p>
+          <p class="info-value">Puzzle Design · Pacing · Narrative Arc</p>
+        </div>
+      </div>
+      <div class="content-body">
+        <p>Curyeux is a published third-person puzzle-platformer. I designed the final level — a slow-paced, introspective experience built around mastering mobile platforms and culminating in a cinematic meeting with the player character's inner child.</p>
+        <p>As Lead Assist, I also handled interdepartmental communication, coordinating between design, art, and programming teams throughout production.</p>
+      </div>
+    </div>
+
+    <!-- Intentions -->
+    <div class="content-section">
+      <h2 class="content-heading">Design Intentions</h2>
+      <div class="content-body">
+        <p>The level was built around three pillars: mastering the mobile platforms introduced earlier in the game, a slow and cozy pace suited to the game's introspective tone, and a narrative arc that leads to an emotional payoff — meeting the player's inner child.</p>
+        <p>Three puzzle sections of increasing difficulty are each preceded by a narrative event, building emotional momentum toward the final cinematic.</p>
+      </div>
+      <div class="content-img-placeholder content-img-placeholder--wide">Flowchart & Level Overview</div>
+    </div>
+
+    <!-- Production -->
+    <div class="content-section">
+      <h2 class="content-heading">Production</h2>
+      <div class="content-body">
+        <p>The level began with research, a 2D plan, and a full Level Design Document. Construction followed the plan with regular playtests and feedback loops.</p>
+      </div>
+
+      <div class="content-img-placeholder content-img-placeholder--wide">Initial Blockout — GIF</div>
+
+      <div class="content-body" style="margin-top: 1.5rem;">
+        <p><strong style="color: var(--text);">Problem:</strong> Mobile platforms discouraged exploration — players ignored them and moved on.<br>
+        <strong style="color: var(--text);">Solution:</strong> Replaced with stairs and widened the space.<br>
+        <strong style="color: var(--text);">Result:</strong> Improved exploration flow, better pacing, and more creative freedom for the art team.</p>
+      </div>
+
+      <div class="content-img-placeholder content-img-placeholder--wide">Platform Iteration — GIF</div>
+
+      <div class="content-body" style="margin-top: 1.5rem;">
+        <p><strong style="color: var(--text);">Problem:</strong> Players couldn't find the platforms — readability was low.<br>
+        <strong style="color: var(--text);">Solution:</strong> Added verticality, centralized platforms within camera framing.<br>
+        <strong style="color: var(--text);">Result:</strong> Transformed an observation puzzle into a physical navigation challenge with much better readability.</p>
+      </div>
+
+      <div class="content-img-placeholder content-img-placeholder--wide">Navigation Readability — GIF</div>
+    </div>
+
+    <!-- Scripting -->
+    <div class="content-section">
+      <h2 class="content-heading">Blueprints & Scripting</h2>
+      <div class="content-body">
+        <p>Level logic was implemented in Unreal Blueprints. Key interactions included proximity-triggered platform appearances and disappearing platforms on player exit — both reinforcing the puzzle design intent.</p>
+      </div>
+      <div class="content-img-placeholder content-img-placeholder--wide">Blueprint — Platform Appears on Proximity</div>
+      <div class="content-img-placeholder content-img-placeholder--wide" style="margin-top: 1rem;">Blueprint — Platform Disappears on Exit</div>
+    </div>
+
+    <!-- Reflections -->
+    <div class="content-section">
+      <h2 class="content-heading">Reflections</h2>
+      <div class="reflection-grid">
+        <div class="reflection-card">
+          <p class="reflection-problem">Challenge</p>
+          <p class="reflection-title">Coherence</p>
+          <p class="reflection-body">Lack of rhythm and balance consistency across levels. Resolved by creating shared design pillar documentation with mechanical complexity targets per level.</p>
+        </div>
+        <div class="reflection-card">
+          <p class="reflection-problem">Challenge</p>
+          <p class="reflection-title">Guidance</p>
+          <p class="reflection-body">Players got lost despite clear visual cues. Solution: layered audio cues, adjusted lighting, and geometric leading lines built into the architecture.</p>
+        </div>
+        <div class="reflection-card">
+          <p class="reflection-problem">Challenge</p>
+          <p class="reflection-title">Time Constraints</p>
+          <p class="reflection-body">Short deadlines limited iteration cycles. Adapted by building core player flow first, adding complexity later, and using modular design for swappable sections.</p>
+        </div>
+        <div class="reflection-card">
+          <p class="reflection-problem">Challenge</p>
+          <p class="reflection-title">Scoping</p>
+          <p class="reflection-body">Level length exceeded a single artist's capacity. Solution: multi-purpose spaces using vertical layering, and expandable zones that start small but can be widened.</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <p class="footer-name">Yuri Lafontaine</p>
+      <p class="footer-role">Level Designer · Montréal, QC</p>
+      <div class="footer-links">
+        <a href="mailto:your@email.com" class="footer-link">Email</a>
+        <span class="footer-sep">·</span>
+        <a href="https://linkedin.com/in/yourprofile" target="_blank" class="footer-link">LinkedIn</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>

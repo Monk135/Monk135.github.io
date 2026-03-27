@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Grand Chef Goblin — Yuri Lafontaine</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Crimson+Pro:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Inter:wght@300;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav class="nav">
+    <a href="index.html" class="nav-logo">YL</a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li class="nav-dropdown">
+        <a href="#">Level Design ▾</a>
+        <ul class="dropdown-menu">
+          <li><a href="curyeux.html">Curyeux</a></li>
+          <li><a href="cacti.html">Cacti</a></li>
+          <li><a href="coming-soon.html" class="coming-soon-link">Untitled Project <span class="badge">Soon</span></a></li>
+        </ul>
+      </li>
+      <li class="nav-dropdown">
+        <a href="#" class="active">Game Design ▾</a>
+        <ul class="dropdown-menu">
+          <li><a href="green-witch.html">Green Witch</a></li>
+          <li><a href="grand-chef-goblin.html" class="active">Grand Chef Goblin</a></li>
+          <li><a href="redline.html">Redline</a></li>
+        </ul>
+      </li>
+      <li><a href="about.html">About</a></li>
+    </ul>
+    <button class="nav-toggle" id="navToggle">☰</button>
+  </nav>
+
+  <div class="page-hero">
+    <a href="index.html" class="page-back">← Back to Portfolio</a>
+    <p class="page-eyebrow">Game Design · Narrative Design</p>
+    <h1 class="page-title">Grand Chef Goblin</h1>
+    <p class="page-subtitle">Non-linear text-based adventure</p>
+    <div class="page-tags">
+      <span class="tag">Twine</span>
+      <span class="tag">Narrative Design</span>
+      <span class="tag">Non-Linear</span>
+      <span class="tag">Branch & Bottleneck</span>
+    </div>
+    <a href="https://yurilt.itch.io/le-village" target="_blank" class="ext-link">Play on Itch.io ↗</a>
+    <div class="page-rule"></div>
+  </div>
+
+  <div class="page-content">
+
+    <div class="content-img-placeholder content-img-placeholder--wide">Grand Chef Goblin — Screenshot</div>
+
+    <div class="content-section">
+      <h2 class="content-heading">Overview</h2>
+      <div class="info-grid">
+        <div class="info-item">
+          <p class="info-label">Tool</p>
+          <p class="info-value">Twine</p>
+        </div>
+        <div class="info-item">
+          <p class="info-label">Context</p>
+          <p class="info-value">Narrative Design Course — Campus ADN</p>
+        </div>
+        <div class="info-item">
+          <p class="info-label">Inspiration</p>
+          <p class="info-value">Reigns</p>
+        </div>
+      </div>
+      <div class="content-body">
+        <p>Grand Chef Goblin is a non-linear text-based mini-game built in Twine for a narrative design course. The player takes the role of a goblin tribe chief, navigating a series of absurd encounters while balancing four stats — inspired by the card-swipe mechanics of Reigns.</p>
+      </div>
+    </div>
+
+    <div class="content-section">
+      <h2 class="content-heading">Design Technique</h2>
+      <div class="content-body">
+        <p>The structure uses a <strong style="color:var(--text);">branch & bottleneck</strong> approach with reused variables. Player choices diverge meaningfully across branches, but narrative threads converge back at key bottleneck moments — allowing maximum player impact while keeping the scope manageable for a solo project.</p>
+        <p>Flowcharts were planned in Draw.io before any Twine coding began, which helped identify structural problems early and prevented scope creep.</p>
+      </div>
+      <div class="content-img-placeholder content-img-placeholder--wide">Flowchart — Draw.io</div>
+      <div class="content-img-placeholder content-img-placeholder--wide" style="margin-top:1rem;">Twine Node Map</div>
+    </div>
+
+    <div class="content-section">
+      <h2 class="content-heading">Reflections</h2>
+      <div class="content-body">
+        <p>This project demonstrated how quickly non-linear scope can spiral — even at mini-game scale. The initial flowchart wasn't enough; a second iteration was needed before the structure felt workable. The lesson: prototype the narrative structure before writing any content, and scope conservatively for branching stories.</p>
+      </div>
+    </div>
+
+  </div>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <p class="footer-name">Yuri Lafontaine</p>
+      <p class="footer-role">Level Designer · Montréal, QC</p>
+      <div class="footer-links">
+        <a href="mailto:your@email.com" class="footer-link">Email</a>
+        <span class="footer-sep">·</span>
+        <a href="https://linkedin.com/in/yourprofile" target="_blank" class="footer-link">LinkedIn</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>

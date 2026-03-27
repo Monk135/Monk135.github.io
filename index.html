@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Yuri Lafontaine — Level Designer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Crimson+Pro:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Inter:wght@300;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav">
+    <a href="index.html" class="nav-logo">YL</a>
+    <ul class="nav-links">
+      <li><a href="index.html" class="active">Home</a></li>
+      <li class="nav-dropdown">
+        <a href="#">Level Design ▾</a>
+        <ul class="dropdown-menu">
+          <li><a href="curyeux.html">Curyeux</a></li>
+          <li><a href="cacti.html">Cacti</a></li>
+          <li><a href="coming-soon.html" class="coming-soon-link">Untitled Project <span class="badge">Soon</span></a></li>
+        </ul>
+      </li>
+      <li class="nav-dropdown">
+        <a href="#">Game Design ▾</a>
+        <ul class="dropdown-menu">
+          <li><a href="green-witch.html">Green Witch</a></li>
+          <li><a href="grand-chef-goblin.html">Grand Chef Goblin</a></li>
+          <li><a href="redline.html">Redline</a></li>
+        </ul>
+      </li>
+      <li><a href="about.html">About</a></li>
+    </ul>
+    <button class="nav-toggle" id="navToggle">☰</button>
+  </nav>
+
+  <!-- HERO -->
+  <header class="hero">
+    <div class="hero-bg"></div>
+    <div class="parchment-overlay"></div>
+    <div class="hero-content">
+      <p class="hero-eyebrow">Portfolio</p>
+      <h1 class="hero-name">Yuri Lafontaine</h1>
+      <p class="hero-title">Level Designer</p>
+      <p class="hero-bio">I craft spaces that tell stories — environments built to guide, challenge, and immerse. My focus is on meaningful player choice, spatial narrative, and worlds that feel lived in.</p>
+      <a href="#level-design" class="hero-cta">View Work</a>
+    </div>
+    <div class="hero-scroll-hint">scroll</div>
+  </header>
+
+  <!-- LEVEL DESIGN SECTION -->
+  <section class="section" id="level-design">
+    <div class="section-header">
+      <div class="section-rule"></div>
+      <h2 class="section-title">Level Design</h2>
+      <div class="section-rule"></div>
+    </div>
+
+    <div class="projects-grid">
+
+      <!-- Curyeux -->
+      <a href="curyeux.html" class="project-card featured">
+        <div class="project-img-wrap">
+          <div class="project-img placeholder-img" style="--ph-color: #2a1f14;">
+            <span class="placeholder-label">Curyeux — Screenshot</span>
+          </div>
+          <div class="project-overlay">
+            <span class="project-view">View Case Study →</span>
+          </div>
+        </div>
+        <div class="project-info">
+          <div class="project-tags">
+            <span class="tag">Puzzle Platformer</span>
+            <span class="tag tag-highlight">Published on Steam</span>
+          </div>
+          <h3 class="project-title">Curyeux</h3>
+          <p class="project-desc">Final level of a published third-person puzzle-platformer. Built in Unreal Engine 5.4 over 15 weeks. Focus on pacing, puzzle design, and emotional narrative arc.</p>
+        </div>
+      </a>
+
+      <!-- Cacti -->
+      <a href="cacti.html" class="project-card">
+        <div class="project-img-wrap">
+          <div class="project-img placeholder-img" style="--ph-color: #1a2214;">
+            <span class="placeholder-label">Cacti — Screenshot</span>
+          </div>
+          <div class="project-overlay">
+            <span class="project-view">View Case Study →</span>
+          </div>
+        </div>
+        <div class="project-info">
+          <div class="project-tags">
+            <span class="tag">FPS Multiplayer</span>
+            <span class="tag">5v5 Deathmatch</span>
+          </div>
+          <h3 class="project-title">Cacti</h3>
+          <p class="project-desc">A 5v5 deathmatch map for Call of Duty: Black Ops 2, set in the American South-West. Designed in Unreal Engine 5.5, applying Kevin Lynch's urban theory to level architecture.</p>
+        </div>
+      </a>
+
+      <!-- Coming Soon -->
+      <a href="coming-soon.html" class="project-card project-card--coming-soon">
+        <div class="project-img-wrap">
+          <div class="project-img coming-soon-img">
+            <div class="coming-soon-inner">
+              <div class="coming-soon-rune">᚛</div>
+              <p class="coming-soon-text">In Development</p>
+              <p class="coming-soon-sub">Horde Combat Level Design</p>
+            </div>
+          </div>
+        </div>
+        <div class="project-info">
+          <div class="project-tags">
+            <span class="tag">Horde Combat</span>
+            <span class="tag tag-soon">Coming Soon</span>
+          </div>
+          <h3 class="project-title">Untitled — Horde Level</h3>
+          <p class="project-desc">A medieval horde combat level inspired by Warhammer: Vermintide 2. Focused on encounter design, chokepoint theory, and tension pacing.</p>
+        </div>
+      </a>
+
+    </div>
+  </section>
+
+  <!-- DIVIDER -->
+  <div class="section-divider">
+    <div class="divider-ornament">⸻ ✦ ⸻</div>
+  </div>
+
+  <!-- GAME DESIGN SECTION -->
+  <section class="section" id="game-design">
+    <div class="section-header">
+      <div class="section-rule"></div>
+      <h2 class="section-title">Game Design</h2>
+      <div class="section-rule"></div>
+    </div>
+    <p class="section-subtitle">Additional work spanning game jams, narrative design, and tabletop systems.</p>
+
+    <div class="projects-grid projects-grid--small">
+
+      <a href="green-witch.html" class="project-card project-card--sm">
+        <div class="project-img-wrap">
+          <div class="project-img placeholder-img" style="--ph-color: #13221a;">
+            <span class="placeholder-label">Green Witch — Screenshot</span>
+          </div>
+          <div class="project-overlay">
+            <span class="project-view">View Project →</span>
+          </div>
+        </div>
+        <div class="project-info">
+          <div class="project-tags"><span class="tag">Game Jam</span></div>
+          <h3 class="project-title">Green Witch</h3>
+          <p class="project-desc">A weekend game jam entry made for the Gameable mentorship program. Top-down foraging game with a dark comedic twist.</p>
+        </div>
+      </a>
+
+      <a href="grand-chef-goblin.html" class="project-card project-card--sm">
+        <div class="project-img-wrap">
+          <div class="project-img placeholder-img" style="--ph-color: #1c1a10;">
+            <span class="placeholder-label">Grand Chef Goblin — Screenshot</span>
+          </div>
+          <div class="project-overlay">
+            <span class="project-view">View Project →</span>
+          </div>
+        </div>
+        <div class="project-info">
+          <div class="project-tags"><span class="tag">Narrative Design</span></div>
+          <h3 class="project-title">Grand Chef Goblin</h3>
+          <p class="project-desc">A non-linear text-based adventure built in Twine. Inspired by Reigns — branch & bottleneck structure with tracked variables.</p>
+        </div>
+      </a>
+
+      <a href="redline.html" class="project-card project-card--sm">
+        <div class="project-img-wrap">
+          <div class="project-img placeholder-img" style="--ph-color: #200f0f;">
+            <span class="placeholder-label">Redline — Artwork</span>
+          </div>
+          <div class="project-overlay">
+            <span class="project-view">View Project →</span>
+          </div>
+        </div>
+        <div class="project-info">
+          <div class="project-tags"><span class="tag">TTRPG System</span></div>
+          <h3 class="project-title">Redline</h3>
+          <p class="project-desc">An original TTRPG system inspired by Mad Max and Cyberpunk. Player-centered combat, injury decks, and a focus system built for cinematic chaos.</p>
+        </div>
+      </a>
+
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <p class="footer-name">Yuri Lafontaine</p>
+      <p class="footer-role">Level Designer · Montréal, QC</p>
+      <div class="footer-links">
+        <a href="mailto:your@email.com" class="footer-link">Email</a>
+        <span class="footer-sep">·</span>
+        <a href="https://linkedin.com/in/yourprofile" target="_blank" class="footer-link">LinkedIn</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
